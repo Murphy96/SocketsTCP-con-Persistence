@@ -1,4 +1,4 @@
-package Tarea1Chambi;
+package persistenciaConSocketsTCP;
 import java.io.*;
 import java.net.*;
 import java.util.Calendar;
@@ -7,7 +7,8 @@ public class TCPserver {
 	
 	public static DataInputStream in;
 	public static DataOutputStream out;
-	public static String archName = "C:/Users/Lenovo/Documents/TareaLab/TareaGit/database.dat";
+	public static String archName = "D:/Auxiliaturas/inf-273/java-git/SokcetsTCP-Persistencia/data.dat";
+	
 	public static Socket cli=null;
 	private static Cliente bb;
 	public static void main(String[] args) throws ClassNotFoundException, IOException {

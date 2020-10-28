@@ -1,4 +1,4 @@
-package Tarea1Chambi;
+package persistenciaConSocketsTCP;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
